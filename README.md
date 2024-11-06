@@ -39,16 +39,16 @@ _(Add screenshots here to showcase the application’s UI, e.g., before and afte
    ```
 3. Open index.html in your browser to use the application.
 
-##Usage
+## Usage
 1. Upload a Map Image: Click on the "Upload Map Image" button and select an image file.
 2. Plot Coordinates: Click on the map to mark locations; coordinates will appear in the "Coordinates Output" section.
 3. Save Layer: Enter a layer name, optionally add a URL, and click "Save Layer" to log the coordinates as a layer.
 4. Copy or Edit Layers: Use the controls in the "Layers Log" to copy coordinates or HTML code for each layer, or edit and delete layers as needed.
 
-##License
+## License
 This project is licensed under the MIT License.
 
-##Contact
+## Contact
 For any questions or suggestions, please contact:
 
 GitHub: your-username
