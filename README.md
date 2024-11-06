@@ -1,4 +1,4 @@
-# Interactive Map Coordinate Finder
+# Interactive Image Coordinate Finder
 
 ## Description
 The **Interactive Map Coordinate Finder** is a web-based application that allows users to upload a map image, click on it to mark coordinates, and save specific coordinate layers with unique names and optional URLs. Users can also manage the saved layers by copying, editing, or deleting them as needed. This tool is especially useful for mapping or annotating regions on custom maps.
