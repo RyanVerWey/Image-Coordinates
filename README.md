@@ -49,7 +49,5 @@ _(Add screenshots here to showcase the application’s UI, e.g., before and afte
 This project is licensed under the MIT License.
 
 ## Contact
-For any questions or suggestions, please contact:
+For any questions or suggestions, please visit: https://dot.cards/ryanverwey
 
-GitHub: your-username
-Email: ryan.w.verwey@gmail.com
