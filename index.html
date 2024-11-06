@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coordinate Finder</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Interactive Map Coordinate Finder</h1>
+    </header>
+
+    <main>
+        <section class="controls">
+            <input type="file" id="imageUpload" accept="image/*" aria-label="Upload Map Image">
+            <p class="instructions">
+                Select an image to load onto the canvas. Click on the map to mark coordinates, and they will appear below.
+                Enter a layer name, plot your coordinates, then click "Save Layer" to log it. You can copy, edit, or delete layers directly from the log.
+            </p>
+        </section>
+
+        <section class="canvas-container">
+            <canvas id="mapCanvas"></canvas>
+        </section>
+
+        <section class="layer-input">
+            <input type="text" id="layerNameInput" placeholder="Enter layer name" aria-label="Layer Name">
+            <input type="text" id="layerHrefInput" placeholder="Enter link URL (optional)" aria-label="Link URL">
+            <button type="button" id="saveLayerButton">Save Layer</button>
+        </section>
+
+        <section class="coordinates-output">
+            <textarea id="coordsOutput" readonly placeholder="Coordinates will appear here for easy copying." aria-label="Coordinates Output"></textarea>
+        </section>
+
+        <section id="layerLog" class="layer-log">
+            <h2>Layers Log</h2>
+            <!-- Layers will be appended here dynamically -->
+        </section>
+    </main>
+
+    <!-- Notification Popup -->
+    <div id="notification">Coordinates copied to clipboard!</div>
+
+    <script src="JS/script.js"></script>
+</body>
+
+</html>
